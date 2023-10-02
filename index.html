@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Level</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form>
+    <fieldset>
+         <legend>Контактна інформація</legend>
+         <p>
+            <label for="name"> Ім'я <em>*</em></label>
+            <input type="text" id="name">
+         </p>
+         <p>
+            <label for="E-mail"> E-mail</label>
+            <input type="email" id="email">
+        </p>
+         <p>
+            <label for="number"> Телефон</label>
+            <input type="tel" title="phone number starts with 38" id="phone">
+        </p>
+        <p>
+            <label form="country"> Країна</label>
+            <select id="country" name="country">
+                <option>Україна</option>
+                <option>Японія</option>
+                <option>Іспанія</option>
+                <option>Польща</option>
+                <option>Румунія</option>
+                <option>Канада</option>
+            </select>
+        </p>
+        <p>
+            <label for="comments">Коментар</label>
+            <input type="comments" id="comments">
+        </p>
+        <p class="checkbox">
+            <input type="checkbox" id="checkbox-id">
+            <label for="checkbox-id">Чоловік</label>
+            <input type="checkbox" id="checkbox-id">
+            <label for="checkbox-id">Жінка</label>
+            <input type="checkbox" id="checkbox-id">
+            <label for="checkbox-id">Інше...</label>
+        </p>
+        
+    </fieldset>
+    <input type="button" value="Відправити">
+    </form>
+</body>
+</html>
